@@ -32,7 +32,7 @@ public class Main extends ApplicationAdapter {
         batch = new SpriteBatch();
        img = new Texture("player.png");
         img_bullet = new Texture("bullet.png");
-        img_alien = new Texture("alien.png");
+        img_alien = new Texture("alien1.png");
         player = new Player(img,img_bullet,Color.GREEN);
         aliens = new Alien[NumWidth_aliens*NumHeight_aliens];
         int i = 0;
