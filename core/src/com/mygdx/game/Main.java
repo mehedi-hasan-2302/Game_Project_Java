@@ -16,8 +16,8 @@ public class Main extends ApplicationAdapter {
     Player player;
     Alien[] aliens;
     int NumWidth_aliens = 11;
-    int NumHeight_aliens = 3;
-    int spacing_aliens = 10;
+    int NumHeight_aliens = 5;
+    int spacing_aliens = 40;
     int minX_aliens;
     int minY_aliens;
     int maxX_aliens;
