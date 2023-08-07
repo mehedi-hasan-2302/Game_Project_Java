@@ -31,7 +31,7 @@ public class Main extends ApplicationAdapter {
         offset_aliens = Vector2.Zero;
         batch = new SpriteBatch();
        img = new Texture("player.png");
-        img_bullet = new Texture("bullet.png");
+        img_bullet = new Texture("bullet1.png");
         img_alien = new Texture("alien.png");
         player = new Player(img,img_bullet,Color.GREEN);
         aliens = new Alien[NumWidth_aliens*NumHeight_aliens];
